@@ -38,7 +38,7 @@ class HomeScreen extends React.Component {
   }
 
   backAction = () => {
-    ExitAppAlert('Exit','Are you sure you want to exit app.').then((value) => {
+    ExitAppAlert('Exit', 'Are you sure you want to exit app.').then((value) => {
       BackHandler.exitApp();
     }).catch((error) => {
 

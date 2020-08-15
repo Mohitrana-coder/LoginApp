@@ -10,9 +10,9 @@ const Strings = {
         home: "Home"
     },
     alertText: {
-        enterEmail:'Please enter User name.',
-        enterPassword:'Please enter Password.',
-        passwordIncorrect:'Password is not correct.'
+        enterEmail: 'Please enter User name.',
+        enterPassword: 'Please enter Password.',
+        passwordIncorrect: 'Password is not correct.'
     }
 
 }

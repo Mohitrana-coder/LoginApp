@@ -57,7 +57,7 @@ const LoginComponent = (props) => {
 
 const styles = StyleSheet.create({
     ViewStyle: {
-       flex:1, backgroundColor: colorPalette.white, padding: 8, justifyContent: "center"
+        flex: 1, backgroundColor: colorPalette.white, padding: 8, justifyContent: "center"
     },
     textInputStyle: {
         height: 50, width: "100%", padding: 8, borderRadius: 5, fontSize: 18,

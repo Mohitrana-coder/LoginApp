@@ -4,7 +4,7 @@ const colorPalette = {
     white: "white",
     black: "#111111",
     backGroundColor: 'rgba(0,0,0,.2)',
-    green : "green"
+    green: "green"
 }
 
 export default colorPalette;

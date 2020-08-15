@@ -14,21 +14,21 @@ export function NormalAlert(title, message) {
 }
 
 export function ExitAppAlert(title, message) {
-    return new Promise((resolve,reject) => {
+    return new Promise((resolve, reject) => {
         Alert.alert(title, message,
             [
                 {
                     text: 'Cancel',
                     onPress: () => reject("cancel"),
                     style: 'cancel'
-                  },
+                },
                 {
                     text: "OK",
-                    onPress: () => resolve('Exit') 
+                    onPress: () => resolve('Exit')
                 }
             ],
             { cancelable: false }
         );
     })
-    
+
 }
